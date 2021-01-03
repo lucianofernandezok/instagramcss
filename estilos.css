@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+form {
+
+	width: 450px;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+	animation: cambiante 10s linear infinite;
+	background: -webkit-linear-gradient(left, #E5426C, #DF38D7, #A738DF, #7E53E7);
+	background-size: 400% 400%;
+
+}
+
+@keyframes cambiante {
+	0%{
+		background-position: 0%, 50%;
+	}
+
+	50%{
+		background-position: 100%, 50%;
+	}
+
+	100%{
+		background-position: 0%, 100%;
+	}
+}
+
+
+
+.titulo {
+	font-size: 14px;
+	text-align: center;
+	font-weight: 100;
+	color: white;
+}
+
+.logo {
+	width: 140px;
+	margin-top: 40px;
+}
+
+::placeholder{
+	color: white;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 15px;
+	font-size: 15px;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.4);
+	border-style: none;
+	outline: 0px;
+}
+
+input[type="password"] {
+	width: 100%;
+	padding: 15px;
+	font-size: 15px;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.4);
+	border-style: none;
+	outline: 0px;
+}
+
+input[type="button"] {
+	width: 100%;
+	padding: 15px;
+	font-size: 14px;
+	font-weight: 100;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.2);
+	border-style: none;
+	border: 2px solid rgb(255, 255, 255, 0.4);
+	outline: 0px;
+	color: white;
+}
+
+input[type="button"]:hover{
+	cursor: pointer;
+	background: rgba(255, 255, 255, 0.6);
+
+}
+
+.contenedor-datos {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+.contenedor-datos h4 {
+	font-size: 12px;
+	font-weight: 100;
+	color: white;
+	margin: 2px;
+
+}
+
+.contenedor-datos a {
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin: 2px;
+
+}
+
+.or {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.or hr {
+	width: 190px;
+	height: 1px;
+	border-style: none;
+	background: white;
+	margin-top: 7px;
+}
+
+.or h2 {
+	font-size: 12px;
+	color: white;
+
+}
+
+.icon-facebook-squared {
+	color: white;
+	font-size: 22px;
+}
+
+.icon-facebook {
+	margin-top: 40px;
+}
+
+.icon-facebook-squared a {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	margin-left: -4px;
+}
+
+.contenedor-cuenta {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.contenedor-cuenta h4 {
+	font-size: 14px;
+	font-weight: 100;
+	color: white;
+
+
+}
+
+.contenedor-cuenta a {
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 5px;
+	color: white;
+}
